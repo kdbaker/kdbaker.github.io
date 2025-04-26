@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-size: 1.25em;
+	font-family: 'Poppins', sans-serif;
+}
+
+.header {
+	padding-top: 20px;
+	background: cyan;
+	background: linear-gradient(20deg, indigo, cyan);
+	min-height: 300px;
+	color: #FFF;
+	text-align: center;
+}
+
+.header strong {
+	display: block;
+	font-size: 2em
+}
+
+.header em {
+    display: block;
+    margin: 20px;
+	font-family: 'Rock Salt', cursive;
+}
+
+.container {
+	margin-top: -75px;
+	padding: 30px 0 20px 0;
+	
+}
+
+.main, .secondary {
+	width: 500px;
+	padding: 15px;
+	margin: auto;
+
+}
+
+.main {
+	text-align: center;
+	background-color: #FFF;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+	-webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+
+.secondary {
+	padding-top: 25px;
+    font-size: .75em;
+}
+
+.secondary h3 {
+	border-bottom: 1px solid #efefef;
+}
+
+dl > dt {
+    margin: 10px 0 0 0;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+	.header {
+		min-height: 200px;
+	}
+	
+	.header strong {
+		font-size: 1.2em;
+	}
+
+	.header em {
+	    margin: 5px;
+	}
+
+	.main, .secondary {
+		width: auto;
+	}
+
+	.main {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.main a {
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	.main p > :last-child {
+		margin-bottom: 0px
+	}
+
+	.main span {
+		display: none;
+	}
+}
