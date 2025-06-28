@@ -353,7 +353,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Enhanced Services Section */
 .services-section {
     padding: 120px 0;
-    background: var(--bg-coral);
+    background: var(--seashell);
     position: relative;
 }
 
@@ -362,7 +362,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 900;
     text-align: center;
     margin-bottom: 1rem;
-    color: var(--text-light);
+    color: var(--coquelicot);
     position: relative;
 }
 
@@ -374,7 +374,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateX(-50%);
     width: 80px;
     height: 4px;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(242, 77, 29, 0.5);
     border-radius: 2px;
 }
 
@@ -383,7 +383,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     margin-bottom: 2rem;
     margin-top: 2rem;
-    color: var(--text-light);
+    color: var(--text-secondary);
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
@@ -392,23 +392,13 @@ h1, h2, h3, h4, h5, h6 {
 .service-card {
     background: var(--bg-primary);
     border: 2px solid var(--border-light);
-    border-radius: 28px;
-    padding: 3.5rem 2.5rem;
+    border-radius: 8px;
+    padding: 7rem 5rem;
     box-shadow: var(--shadow-sm);
     position: relative;
     overflow: hidden;
     height: 100%;
     backdrop-filter: blur(10px);
-}
-
-.service-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 8px;
-    background: var(--gradient-accent);
 }
 
 .service-card::after {
