@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-link:hover,
 .nav-link.active {
-    color: var(--tiffany-blue) !important;
+    color: var(--coquelicot) !important;
     background-color: var(--bg-secondary);
 }
 
