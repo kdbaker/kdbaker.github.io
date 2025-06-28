@@ -172,6 +172,22 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: var(--shadow-lg);
 }
 
+/* Light button with coquelicot text on hover */
+.btn-light {
+    background: white;
+    color: var(--text-primary);
+    border: 2px solid white;
+    box-shadow: var(--shadow-md);
+}
+
+.btn-light:hover {
+    background: white;
+    color: var(--coquelicot);
+    border-color: var(--coquelicot);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
 .btn-lg {
     padding: 1rem 2rem;
     font-size: 1.1rem;
