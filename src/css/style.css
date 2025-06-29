@@ -618,6 +618,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Responsive adjustments for bold design */
 @media (max-width: 768px) {
+    .hero-section {
+        max-height: none;
+    }
+
+    .hero-image {
+        margin-top: 0rem;
+    }
+    
     .hero-content h1 {
         font-size: 3rem;
     }
@@ -647,8 +655,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 576px) {
+    .hero-section {
+        max-height: none;
+    }
+    
     .hero-content h1 {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
     
     .hero-buttons .btn {
@@ -656,9 +668,13 @@ h1, h2, h3, h4, h5, h6 {
         width: 100%;
         margin-bottom: 1rem;
     }
-    
-    .hero-image img {
-        max-width: 300px;
+
+    .hero-image {
+        margin-top: 0rem;
+    }
+
+    .btn {
+        width: 100%;
     }
 }
 
