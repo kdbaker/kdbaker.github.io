@@ -542,24 +542,12 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
 }
 
-.impact-section::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: 
-        radial-gradient(circle at 30% 70%, rgba(127, 214, 219, 0.05) 0%, transparent 50%),
-        radial-gradient(circle at 70% 30%, rgba(242, 77, 29, 0.05) 0%, transparent 50%);
-}
-
 .impact-section .h2 {
     font-size: 4rem;
     font-weight: 900;
     text-align: center;
     margin-bottom: 1rem;
-    color: var(--tiffany-blue);
+    color: var(--coquelicot);
     position: relative;
 }
 
@@ -571,14 +559,15 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateX(-50%);
     width: 80px;
     height: 4px;
-    background: rgba(127, 214, 219, 0.5);
+    background: rgba(242, 77, 29, 0.5);
     border-radius: 2px;
 }
 
 .impact-section .lead {
     font-size: 1.4rem;
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
     color: var(--licorice);
     max-width: 700px;
     margin-left: auto;
@@ -586,43 +575,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .impact-stat {
-    background: var(--bg-primary);
+    background: rgba(251, 239, 235, 0.4);
     padding: 3.5rem 2.5rem;
-    border-radius: 28px;
+    border-radius: 10px;
     text-align: center;
-    transition: all 0.4s ease;
     box-shadow: var(--shadow-lg);
     position: relative;
     overflow: hidden;
     height: 100%;
 }
 
-.impact-stat::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 6px;
-    background: var(--gradient-accent);
-    transform: scaleX(0);
-    transition: transform 0.4s ease;
-}
-
-.impact-stat:hover {
-    transform: translateY(-12px);
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-    border-color: var(--accent-cool);
-}
-
-.impact-stat:hover::before {
-    transform: scaleX(1);
-}
-
 .impact-stat h3 {
     font-size: 4.5rem;
     font-weight: 900;
-    background: var(--gradient-accent);
+    background: var(--licorice);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -638,7 +604,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateX(-50%);
     width: 60px;
     height: 3px;
-    background: var(--gradient-accent);
+    background: var(--coquelicot);
     border-radius: 2px;
 }
 
