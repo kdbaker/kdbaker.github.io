@@ -4,7 +4,7 @@
 :root {
     /* Primary Color Palette */
     --seashell: #FBEFEBff;      /* Warm accent for subtle highlights */
-    --tiffany-blue: #7FD6DBff;  /* Sophisticated teal accent */
+    --tiffany-blue: #00ACC1ff;  /* Sophisticated teal accent */
     --licorice: #201713ff;      /* Deep charcoal text */
     --coquelicot: #F24D1Dff;    /* Vibrant coral for accent sections */
     --timberwolf: #D0C3BEff;    /* Warm gray neutral */
@@ -226,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero-content h1 {
     font-size: 5.5rem;
     font-weight: 900;
-    background: linear-gradient(135deg, #7FD6DBff 0%, #4DD0E1ff 50%, #00ACC1ff 100%);
+    background: linear-gradient(135deg, #4ADFE8 0%, #4DD0E1ff 50%, #00ACC1ff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -537,7 +537,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Impact Section with Coral Accent */
 .impact-section {
     padding: 120px 0;
-    background: var(--bg-coral);
+    background: var(--bg-primary);
     position: relative;
     overflow: hidden;
 }
@@ -550,8 +550,8 @@ h1, h2, h3, h4, h5, h6 {
     right: 0;
     bottom: 0;
     background: 
-        radial-gradient(circle at 30% 70%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 70% 30%, rgba(255, 255, 255, 0.05) 0%, transparent 50%);
+        radial-gradient(circle at 30% 70%, rgba(127, 214, 219, 0.05) 0%, transparent 50%),
+        radial-gradient(circle at 70% 30%, rgba(242, 77, 29, 0.05) 0%, transparent 50%);
 }
 
 .impact-section .h2 {
@@ -559,7 +559,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 900;
     text-align: center;
     margin-bottom: 1rem;
-    color: var(--text-light);
+    color: var(--tiffany-blue);
     position: relative;
 }
 
@@ -571,7 +571,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateX(-50%);
     width: 80px;
     height: 4px;
-    background: var(--text-light);
+    background: rgba(127, 214, 219, 0.5);
     border-radius: 2px;
 }
 
@@ -579,7 +579,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.4rem;
     text-align: center;
     margin-bottom: 4rem;
-    color: var(--text-light);
+    color: var(--licorice);
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
