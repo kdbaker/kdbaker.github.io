@@ -848,3 +848,29 @@ footer a:hover {
         background: white;
     }
 } 
+
+.highlight-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.highlight-item i {
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    padding-top: 7px;
+    color: var(--coquelicot);
+} 
+
+.contact-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contact-option i {
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    padding-top: 7px;
+    color: var(--coquelicot);
+} 
