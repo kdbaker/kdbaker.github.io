@@ -229,14 +229,8 @@ To use your custom domain (e.g., kevindbaker.com):
 
 For technical support or questions about the website:
 
-- **Email**: kevin@kevindbaker.com
 - **LinkedIn**: [Kevin Baker](https://www.linkedin.com/in/kevindbaker/)
 
 ## 📄 License
 
 This project is created for Kevin Baker's personal branding website. All rights reserved.
-
----
-
-**Last Updated**: December 19, 2024
-**Version**: 1.0.0 
